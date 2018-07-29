@@ -61,7 +61,7 @@
       <text>Add new account</text>
     </lang>
     <lang slug="you-can-be-assured">
-      <text>You need to login to get the token and the script will not save your password. You can be assured.</text>
+      <text>You need to login to get the token and the script will not save your password. You can be assured. If you got 'checkpoint_required', please open your app. Instagram will just ask "was this you?" and you should select 'it was me' for the app to work like always.</text>
     </lang>
     <lang slug="list-instagram-tools">
       <text>List instagram tools</text>
