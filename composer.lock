@@ -1,0 +1,128 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d3786df6bcb05756ef36466b5b553e6e",
+    "content-hash": "7affe681320dff5c642c7f916010c947",
+    "packages": [
+        {
+            "name": "codeigniter/framework",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bcit-ci/CodeIgniter.git",
+                "reference": "c31d208e2bdedfdfa9b4d4b5a7d96229a87ebca4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/c31d208e2bdedfdfa9b4d4b5a7d96229a87ebca4",
+                "reference": "c31d208e2bdedfdfa9b4d4b5a7d96229a87ebca4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.1.*"
+            },
+            "suggest": {
+                "paragonie/random_compat": "Provides better randomness in PHP 5.x"
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The CodeIgniter framework",
+            "homepage": "https://codeigniter.com",
+            "time": "2016-10-22 14:10:21"
+        },
+        {
+            "name": "mgp25/instagram-php",
+            "version": "v1.5.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mgp25/Instagram-API.git",
+                "reference": "dd62c6dd47bf25129e536b134ab640512adfdb6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mgp25/Instagram-API/zipball/dd62c6dd47bf25129e536b134ab640512adfdb6c",
+                "reference": "dd62c6dd47bf25129e536b134ab640512adfdb6c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-gd": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mgp25",
+                    "email": "me@mgp25.com"
+                }
+            ],
+            "description": "Instagram private API PHP",
+            "keywords": [
+                "api",
+                "instagram",
+                "php",
+                "private"
+            ],
+            "time": "2016-09-27 08:11:47"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "mikey179/vfsStream",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikey179/vfsStream.git",
+                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "org\\bovigo\\vfs": "src/main/php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "homepage": "http://vfs.bovigo.org/",
+            "time": "2012-08-25 12:49:29"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.2"
+    },
+    "platform-dev": []
+}
