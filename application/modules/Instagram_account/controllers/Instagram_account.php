@@ -39,6 +39,7 @@ class Instagram_account extends MX_Controller {
 		}else{
 			$data = array(
 				"username" => $i->username,
+				"password" => post("password"),
 				"uid"      => session("uid"),
 				"changed"  => NOW 
 			);
