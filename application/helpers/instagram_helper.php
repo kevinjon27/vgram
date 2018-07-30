@@ -316,7 +316,7 @@ if(!function_exists("INSTAGRAM_POST")){
                                         $CI->load->model('Schedule_model', 'schedule_model');
                                         $lang = $CI->db->insert(INSTAGRAM_FOLLOW_TB, array(
                                             "pk"           => $row->args->profile_id,
-                                            "name"         => $row->args->inline_follow['user_info']['username'],
+                                            "name"         => str_replace(' started following you.', '', $text),
                                             "type"         => $data->schedule_type,
                                             "uid"          => $data->uid,
                                             "account_id"   => $data->account,
